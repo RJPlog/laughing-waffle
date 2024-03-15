@@ -13,4 +13,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_URL: ${{ github.event.pull_request.html_url }}
-      - run: echo $PR_URL    
+      - run: echo "mal schauen ob wir herausfinden was das ist ${{ github.event.pull_request.html_url }}"    
